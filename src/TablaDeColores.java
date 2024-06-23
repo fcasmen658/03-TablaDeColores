@@ -1,17 +1,17 @@
 /*
-Secuencia de escape	Descripción
+Secuencia de escape	Descripciï¿½n
 \t	Inserta un tabulador
 \b	Retroceder un espacio (backspace)
-\n	Inserta una nueva línea
+\n	Inserta una nueva lï¿½nea
 \r	Inserta un retorno de carro
-\f	Salto de página
-\’	Inserta una comilla simple
+\f	Salto de pï¿½gina
+\ï¿½	Inserta una comilla simple
 \"	Inserta una comilla doble
 \\	Inserta una contrabarra (backslash)
 
 public static void main(String[] args) {
 
-    System.out.println("Ejemplo con un salto de línea,\n " +
+    System.out.println("Ejemplo con un salto de lï¿½nea,\n " +
             "un \t tabulador y \"comillas dobles\"");
 
 }
@@ -20,17 +20,17 @@ public static void main(String[] args) {
 
 public class TablaDeColores {
     public static void main (String[] args) {
-        System.out.println("Ejemplo con un salto de línea,\naquí continúa el salto de linea.\n");
+        System.out.println("Ejemplo con un salto de lÃ­nea,\naquÃ­ continÃºa el salto de lÃ­nea.\n");
         System.out.println("Esto es un ejemplo de tabulador \t tabulador.\n");
-        System.out.println("Esto es un ejemplo de: \nsalto de linea.\n");
-        System.out.println("Esto es un ejemplo de:\rSalto de pagina.\n");
+        System.out.println("Esto es un ejemplo de: \nsalto de lÃ­nea.\n");
+        System.out.println("Esto es un ejemplo de:\rSalto de pÃ¡gina.\n");
         System.out.println("Esto es un ejemplo de:_ _\bretroceder un espacio.");
-        System.out.println("Esto es un ejemplo de: \t -\t tabulación.");
+        System.out.println("Esto es un ejemplo de: \t -\t tabulaciÃ³n.");
         System.out.println("Esto es un ejemplo de: \"comillas dobles\"");
         System.out.println("Esto es un ejemplo de: \'comillas simples\'");
 
         System.out.println("-------------------------------------------------");
-        System.out.println("| Código |   Color   | Código |     Color       |");
+        System.out.println("| Cï¿½digo |   Color   | Cï¿½digo |     Color       |");
         System.out.println("-------------------------------------------------");
         System.out.println("|    0   |\033[0m reset \033[0m    |"+"    9    |\033[9m tachado \033[0m\t\t|");
         System.out.println("|    1   |\033[1m negrita \033[0m  |"+"    8    |\033[8m normal \033[0m\t\t|");
@@ -53,7 +53,7 @@ public class TablaDeColores {
         System.out.println("|   37   |\033[37m blanco \033[0m   |"+"    97   |\033[97m blanco \033[0m\t\t|");
         System.out.println("|   47   |\033[47m blanco \033[0m   |"+"   107   |\033[107m blanco \033[0m\t\t|");
         System.out.println("|   48   |\033[48m blanco \033[0m   |"+"   108   |\033[108m blanco \033[0m\t\t|");
-        System.out.println("|   51   |\033[51m blanco \033[0m   |"+"    52   |\033[52m blanco \033[0m\t\t|");
+        System.out.println("|   51   |\033[41m blanco \033[0m   |"+"    52   |\033[52m blanco \033[0m\t\t|");
         System.out.println("-------------------------------------------------");
     }
 }
