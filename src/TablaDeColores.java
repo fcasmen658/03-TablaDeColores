@@ -30,7 +30,7 @@ public class TablaDeColores {
         System.out.println("Esto es un ejemplo de: \'comillas simples\'");
 
         System.out.println("-------------------------------------------------");
-        System.out.println("| C�digo |   Color   | C�digo |     Color       |");
+        System.out.println("| Código |   Color   | Código |     Color       |");
         System.out.println("-------------------------------------------------");
         System.out.println("|    0   |\033[0m reset \033[0m    |"+"    9    |\033[9m tachado \033[0m\t\t|");
         System.out.println("|    1   |\033[1m negrita \033[0m  |"+"    8    |\033[8m normal \033[0m\t\t|");
